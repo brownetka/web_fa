@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title class="head_title">seminar1-2</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<h1>Отличнейший заголовок</h1>
+<p><i>Пройдите данную форму, чтобы я получил хорошую оценку :)</i></p>
+
+<fieldset id="survey-form">
+  <div class="row">
+    <label for="name"><em>*</em> Name:</label>
+    <input type="text" id="name" class="input-field" required placeholder="Enter your name">
+    </div>
+
+  <div class="row">
+    <label for="email"><em>*</em> Email:</label>
+    <input type="email" id="email" class="input-field" required placeholder="Enter your email">
+  </div>
+
+    <div class="row">
+    <label for="number"><em>*</em> Number:</label>
+    <input type="text" id="number" class="input-field" required placeholder="Enter your number">
+  </div>
+
+    <div class="row">
+    <label for="gender"><em>*</em> Gender:</label>
+    <select name="gender" id="gender" class="input-field">
+        <option selected="selected">Choose your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br>
+    </div>
+
+    <div class="row">
+        <label for="dateBirth"><em>*</em> Date of birth:</label>
+        <input id= "dateBirth" name="dateBirth" class="input-field" type="date" required="">
+    </div>
+
+    <div class="row">
+        <label for="pets"><em>*</em> Lovely pet:</label>
+        <select name="pets" id="pets" class="input-field">
+        <option value="Cat">Cat</option>
+        <option value="Dog">Dog</option>
+        <option value="Parrot">Parrot</option>
+        <option value="Monkey">Monkey</option>
+        <option value="Turtle">Turtle</option>
+        <option value="Goldfish">Goldfish</option>
+    </select>
+    </div>
+
+    <div>
+
+    <label for="sushi"><em>*</em> What type of eat you dislike? </label>
+    <div class="checkbox-field" style="display: flex;">
+    <p><input type="checkbox" name="a" value="sushi" id="sushi">Sushi</p>
+    </div>
+
+    <div class="checkbox-field" style="display: flex;">
+    <p><input type="checkbox" name="a" value="pasta">Pasta</p>
+    </div>
+
+    <div class="checkbox-field" style="display: flex;">
+    <p><input type="checkbox" name="a" value="olives">Olives</p>
+    </div>
+
+    <div class="checkbox-field" style="display: flex;">
+    <p><input type="checkbox" name="a" value="sardines">Sardines</p>
+    </div>
+    <div class="checkbox-field" style="display: flex;">
+
+    <p><input type="checkbox" name="a" value="mango">Mango</p>
+    </div>
+    </div>
+
+    <p style="text-align: left;margin-top: -45px">Additional information:</p>
+    <textarea name="MyText" rows="100" cols="100"></textarea>
+
+</fieldset>
+
+
+<form>
+    <button> Отправить </button>
+</form>
+
+</body>
+</html>
